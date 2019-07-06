@@ -8,5 +8,56 @@
       "id":2,
       "name":"Beagle2",
       "image":"https://a-z-animals.com/media/animals/images/470x370/beagle1.jpg"
-  }
+  },
+  {
+    "id":3,
+    "name":"Basset",
+    "image":"https://www.puppyfind.com/breed/basset_hound/m_659099.jpg"
+},
+{
+  "id":4,
+  "name":"Bloodhound",
+  "image":"https://cdn2-www.dogtime.com/assets/uploads/gallery/bloodhound-dog-breed-pictures/7-faceforward.jpg"
+},
+{
+  "id":5,
+  "name":"Boston",
+  "image":"https://www.bu.edu/files/2017/11/resized_17-1886-AUGGIE-055.jpg"
+},
+{
+  "id":6,
+  "name":"Boxer",
+  "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOYTCoKY_EsVamlyvEMiZJxuRTt7iFP6qoMcksaH4TqvQAwO2N1g"
+},
+{
+  "id":7,
+  "name":"Bulldog",
+  "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Clyde_The_Bulldog.jpg/220px-Clyde_The_Bulldog.jpg"
+},
+{
+  "id":8,
+  "name":"Bullmastiff",
+  "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5W7ZYM9-2jeowZpvz5lxDLVIt03aMSHB_mkZYPCI7OcmdzWdG5Q"
+},
+{
+  "id":9,
+  "name":"Coonhoundred",
+  "image":"http://cdn.akc.org/content/hero/aec_hero.jpg"
+},
+{
+  "id":10,
+  "name":"Coonhoundblue",
+  "image":"https://www.puppyfind.com/breed/bluetick_coonhound/m_7pasa48gv5.jpg"
+},
+{
+  "id":11,
+  "name":"Frenchie",
+  "image":"http://geniusvets.s3.amazonaws.com/gv-dog-breeds/french-bulldog-1.jpg"
+},
+{
+  "id":12,
+  "name":"Foxhound",
+  "image":"https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/05140418/American-Foxhound.jpg"
+}
+
 ]

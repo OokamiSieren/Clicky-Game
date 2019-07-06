@@ -22,6 +22,6 @@ class App extends Component {
     }
 }
 
-
+//image click function that registers click, each click not repeated increases the score by one,images shuffle, if clicked again score stops, game over restart game, keep highest score
 
  export default App;
