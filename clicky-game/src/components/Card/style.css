@@ -1,9 +1,12 @@
 #card {
-    height:200px;
+    height:180px;
     width:200px;
-    border:10px; 
+    border-block-end-width:10px; 
+    border-color: cadetblue;
+    margin: 1rem;
+      
 }
 #image {
-    height:200px;
+    height:180px;
     width:200px;
 }

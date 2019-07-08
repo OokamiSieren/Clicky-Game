@@ -44,10 +44,10 @@ class App extends Component {
 
     render() {
         return (
-            <div><Navbar score={this.state.score} highscore={this.state.highscore}></Navbar>
+            <Wrapper>
+            <Navbar score={this.state.score} highscore={this.state.highscore}></Navbar>
            <Jumbotron></Jumbotron>
            {this.state.dogs.map( dog => (
-            <Wrapper>
             <Card
             dogClickCount={this.dogClickCount}
             id={dog.id}
@@ -55,14 +55,11 @@ class App extends Component {
             name={dog.name}
             image={dog.image}
             />
-            </Wrapper>
            ))}
-          
-               </div>
+           </Wrapper>
+        
         );
     }
 }
-
-//image click function that registers click, each click not repeated increases the score by one,images shuffle, if clicked again score stops, game over restart game, keep highest score
 
  export default App;
