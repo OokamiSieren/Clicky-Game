@@ -3,10 +3,10 @@
     width: 100%;
     position: fixed;
     top:0;
-    background-color: tomato
+    background-color: tomato;
 }
 
 span {
     font-weight: bold;
-    font-size: 22px
+    font-size: 22px;
 }
