@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Card from "./components/Card";
+import Wrapper from "./components/Wrapper"
 import dogs from "./dogs.json";
 class App extends Component {
      state = {
@@ -46,6 +47,7 @@ class App extends Component {
             <div><Navbar score={this.state.score} highscore={this.state.highscore}></Navbar>
            <Jumbotron></Jumbotron>
            {this.state.dogs.map( dog => (
+            <Wrapper>
             <Card
             dogClickCount={this.dogClickCount}
             id={dog.id}
@@ -53,6 +55,7 @@ class App extends Component {
             name={dog.name}
             image={dog.image}
             />
+            </Wrapper>
            ))}
           
                </div>
