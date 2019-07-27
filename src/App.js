@@ -10,17 +10,30 @@ class App extends Component {
     score: 0,
     highscore: 0
   };
+
+ componentDidMount(){
+  dogs.forEach(dog => {
+    dog.count = 0;
+  });
+  dogs.sort(() => Math.random() - 0.5);
+  this.setState({
+    dogs,
+  })
+} 
   gameOver = () => {
-    if (this.state.score > this.state.highscore) {
-      this.setState({ highscore: this.state.score }, function() {
-        console.log(this.state.highscore);
-      });
-    }
     this.state.dogs.forEach(dog => {
       dog.count = 0;
     });
+    let newtop = 0;
+    if (this.state.score > this.state.highscore) {
+     newtop = this.state.score 
+    }
+    else{
+      newtop = this.state.highscore
+    }
+  
     alert(`Game Over \nscore: ${this.state.score}`);
-    this.setState({ score: 0 });
+    this.setState({ score: 0, highscore: newtop});
     return true;
   };
 
@@ -28,6 +41,7 @@ class App extends Component {
     // eslint-disable-next-line array-callback-return
     this.state.dogs.find((o, i) => {
       if (o.id === id) {
+        console.log(o.id, id, dogs[i].count  )
         if (dogs[i].count === 0) {
           dogs[i].count = dogs[i].count + 1;
           this.setState({ score: this.state.score + 1 }, function() {

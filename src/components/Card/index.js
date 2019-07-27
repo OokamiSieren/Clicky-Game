@@ -5,7 +5,7 @@ function Card(props) {
   return (
     // <div className="container">
     <div
-      onClick={() => props.dogClickCount(props.id)}
+     
       className="card-deck"
       id="card"
     >
@@ -15,6 +15,7 @@ function Card(props) {
           alt={props.name}
           className="card-img-top"
           src={props.image}
+          onClick={() => props.dogClickCount(props.id)}
         />
       </div>
     </div>
