@@ -8,6 +8,7 @@ function Jumbotron() {
         <h1 class="display-4" className="text-align-center">
           <i class="fas fa-paw" /> Click The Mug Game! <i class="fas fa-paw" />
         </h1>
+      <span></span>
       </div>
     </div>
   );
